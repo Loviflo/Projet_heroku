@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="signin">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="icon" type="image/png" href="../Images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="Images/favicon.png">
     <title>Pokédex | Connexion</title>
 </head>
 <body>

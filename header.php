@@ -1,7 +1,7 @@
 <header>
     <section class="navbar">
         <section class="navbar-left">
-            <a href="index.php"><img class="logo" src="..\Images\logo.png" alt="logo_pikachu"></a>
+            <a href="index.php"><img class="logo" src="Images\logo.png" alt="logo_pikachu"></a>
         </section>
         <section class="navbar-right">
                 <a href="index.php">Accueil</a>
