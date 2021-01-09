@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="Page d'index du site">
-    <link rel="stylesheet" type="text/css" href="../CSS/style.css">
-    <link rel="icon" type="image/png" href="../Images/favicon.png">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel="icon" type="image/png" href="Images/favicon.png">
     <title>Pokédex | Accueil</title>
 </head>
 <body>
@@ -31,7 +31,7 @@
     <section class="center">
         <h1>Bienvenue sur le Pokédex!</h1>
         <figure class="img">
-            <img src="../Images/pikachu.png"  alt="Pikachu" width="244"></a>
+            <img src="Images/pikachu.png"  alt="Pikachu" width="244"></a>
             <!--<figcaption>Cliquez pour voir l'image en taille réelle</figcaption>-->
         </figure>
         <h3 class="textcenter">Attrapez-les tous!</h3>
