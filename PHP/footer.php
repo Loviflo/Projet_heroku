@@ -1,0 +1,1 @@
+<footer class="footer">Pokédex - 2020</footer>

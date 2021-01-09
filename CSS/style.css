@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url('../Fonts/raleway-regular-webfont.woff') format('woff'), url('../Fonts/raleway-regular-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-style: italic;
+    src: url('../Fonts/raleway-italic-webfont.woff') format('woff'), url('../Fonts/raleway-italic-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: bold;
+    src: url('../Fonts/raleway-bold-webfont.woff') format('woff'), url('../Fonts/raleway-bold-webfont.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-style: italic;
+    src: url('../Fonts/raleway-bolditalic-webfont.woff') format('woff'), url('../Fonts/raleway-bolditalic-webfont.woff2') format('woff2');
+}
+
+nav {
+    list-style: none;
+    padding-left: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    color: aliceblue;
+    text-align: left;
+    background-color: #c83531;
+    position: relative;
+}
+
+footer {
+    color: lightgrey;
+    text-align: center;
+    float: bottom;
+    padding: 20px;
+}
+
+* {
+    margin: 0;
+    font-family: 'Raleway';
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #292929;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: #292929;
+    text-align: center;
+}
+
+h2 {
+    color: #292929;
+}
+
+h3 {
+    color: #292929;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15)
+}
+
+.connect {
+    text-align: center;
+}
+
+.textcenter {
+    padding: 5% 40px 20px 20px;
+    text-align: center;
+}
+
+.text {
+    padding: 5% 40px 20px;
+    text-align: left;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #292929;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: lightgray;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: lightgray;
+    color: #292929;
+}
+
+.navbar a.active {
+    background-color: lightgray;
+    color: #292929;
+}
+
+.center {
+    flex: 80%;
+    padding: 20px;
+    background-color: lightgrey;
+}
+
+.footer {
+    height: 60px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+.profilepicture {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.navbar-right {
+    float: right;
+    vertical-align: center;
+    flex-direction: row;
+}
+
+.navbar-left {
+    float: left;
+}
+
+.logo {
+    height: 40px;
+}
+
+.left {
+    flex-direction: column;
+    flex: 20%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+.img {
+    float: right;
+    padding: 5% 10% 10%;
+}
+
+form input,
+button {
+    width: 80%;
+}
+
+input[type=text],
+input[type=password] {
+    padding: 12px 20px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+button[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+label {
+    margin-left: 10%;
+}
+
+.signup {
+    width: 80%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.signup a {
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    background-color: lightgrey;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
