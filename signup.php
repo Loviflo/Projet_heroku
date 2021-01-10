@@ -5,6 +5,7 @@
     <meta name="description" content="signup">
     <link rel="stylesheet" type="text/css" href="CSS/style.css">
     <link rel="icon" type="image/png" href="Images/favicon.png">
+    <script src="https://app.simplefileupload.com/buckets/e7de8b7ad1ec7ee8e4f406754be36061.js"></script>
     <title>Pokédex | Inscription</title>
 </head>
 <body>
@@ -24,8 +25,9 @@
             <input type="text" name="user_mail" placeholder="Mail"><br>
             <input type="password" name="user_password" placeholder="Mot de passe"><br>
             <label for="image">Image : </label>
-            <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
-            <input type="file" name="user_img"><br>
+            <!-- <input type="hidden" name="MAX_FILE_SIZE" value="1000000">
+            <input type="file" name="user_img"><br> -->
+            <input type="hidden" name="user_img" id="avatar_url" class="simple-file-upload">
             <button type="submit">S'inscrire</button>
         </form>
     </section>

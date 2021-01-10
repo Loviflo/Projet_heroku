@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://app.simplefileupload.com/buckets/e7de8b7ad1ec7ee8e4f406754be36061.js"></script>
     <title>Ajouter un Pokemon</title>
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
 </head>
@@ -20,7 +21,8 @@
             <input type="text" name="defense" placeholder="Défense"><br>
             <input type="text" name="vitesse" placeholder="Vitesse"><br>
             <label for="image">Image : </label>
-            <input type="file" name="pok_img"><br>
+            <!-- <input type="file" name="pok_img"><br> -->
+            <input type="hidden" name="pok_img" id="avatar_url" class="simple-file-upload">
             <button type="submit">Ajouter un Pokemon</button>
         </form>
     </main>
