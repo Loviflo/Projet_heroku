@@ -6,7 +6,7 @@ if (!isset($_POST['user_name']) || strlen($_POST['user_name']) < 5 || strlen($_P
     exit;
 }
 
-$q = "SELECT Id FROM `user` WHERE pseudo = ?";
+$q = "SELECT Id FROM users WHERE pseudo = ?";
 $req = $bdd->prepare($q);
 $req->execute([$_POST['user_name']]);
 $results = $req->fetchAll();
