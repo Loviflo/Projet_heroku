@@ -1,7 +1,7 @@
 <?php
 require 'config.php'; 
 
-$q = 'SELECT id FROM user WHERE pseudo = ? AND password = ?';
+$q = 'SELECT id FROM `user` WHERE pseudo = ? AND password = ?';
 $req = $bdd->prepare($q);
 $req->execute([$_POST['user_name'],hash('sha256',$_POST['user_password'])]);
 $results = $req->fetchAll();
